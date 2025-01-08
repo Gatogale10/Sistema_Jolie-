@@ -127,6 +127,22 @@ body
     text-align: center;
     
 }
+
+.centrar-contenido
+{
+    display: flex;           /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+
+}
+
+.derecha-contenido
+{
+    display: flex;           /* Activa Flexbox */
+    justify-content: right; /* Centra horizontalmente */
+
+}
+
+
 /*-------------Utilidades*/ 
 
 .cover {
@@ -208,17 +224,12 @@ img {
 {
     top: 0;
     position: fixed;
-    -webkit-transform: translate3d(0, 0, 0);
+    
     z-index: 111;
     height: auto;
     padding: auto;
     width: 10000px;
-    -webkit-animation-name: fade-in-down;
-    animation-name: fade-in-down;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    
     background-color: rgba(255, 255, 255, 0.5);
     
 
@@ -246,12 +257,12 @@ img {
 .servicio{
     font-family: 'Cormorant', serif;
     font-size: 60px;
-    font-weight: 60;
+    font-weight: 2;
 }
 
 #Boton
 {
-    padding: 2rem;
+    padding-right: 30rem;
 }
 
 #add-person-btn {
@@ -276,11 +287,22 @@ img {
     font-size: 20px;
     font-weight: bold;
 }
-/* Ocultar el formulario al inicio */
+
 #form-container {
     display: none;
     margin-top: 20px;
-    padding-left: 2rem;
+}
+
+
+/* Ocultar el formulario al inicio */
+#form-container1 {
+    display: flex;                  /* Activa Flexbox */
+    justify-content: center;        /* Centra horizontalmente */
+    align-items: center;            /* Centra verticalmente */
+    height:auto;                  /* Ocupa toda la altura de la ventana */
+    width: 50rem;
+    border-radius: 10px;
+    background-color: rgb(177, 175, 128); 
 }
 label, input {
     display: block;
@@ -298,4 +320,15 @@ label, input {
     padding: 10px;
     border: 1px solid #dee2e6;
     border-radius: 5px;
+}
+
+#person-form
+{
+    padding-left: 2rem;
+}
+
+.Titulo {
+    display: flex;           /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh;          /* Ajusta la altura del contenedor (opcional) */
 }
