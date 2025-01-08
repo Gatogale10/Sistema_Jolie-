@@ -34,8 +34,64 @@
 
 
 <body>
+    <!-------Header -------->
+    <header class="header">
 
+        <!---Imagen del encabezado-->
+            <!---el id en este caso es para hacer la pagina dinamica, el web reponsive-->
+        
+        <div id="dinamico">
+            <nav class="Navegacion">
+                <div class="borde-img-portada">
+                    <div class="box">
+                        <img src="img/logo.png" alt="logo" class="logotipo_clinica">
+                    </div>
+                </div>
+
+                <div class="servicio">
+                    <h1 class="servicio">Lista de Pacientes</h1>
+                </div>
+        
+        
+            </nav>
+            
+
+            
+
+        </div>
+    </header>
+
+    <h1>Registro de Pacientes</h1>
     
+    <!-- Botón para abrir el formulario -->
+     <div id="Boton">
+        <button id="add-person-btn">
+            Agregar Pacientes
+            <span>+</span> <!-- Icono de más -->
+        </button>
+        
+
+     </div>
     
+    <!-- Formulario oculto -->
+    <div id="form-container">
+        <form id="person-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+
+    <h2>Personas Registradas</h2>
+    <ul id="person-list"></ul>
+    
+    <script src="funcionalidad.js"></script>
 </body>
 </html>
