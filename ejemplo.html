@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Historia Clínica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+    <!-------Header -------->
+    <header class="header">
+
+        <!---Imagen del encabezado-->
+            <!---el id en este caso es para hacer la pagina dinamica, el web reponsive-->
+        
+        <div id="dinamico">
+            <nav class="Navegacion">
+                <div class="borde-img-portada">
+                    <div class="box">
+                        <img src="img/logo.png" alt="logo" class="logotipo_clinica">
+                    </div>
+                </div>
+
+                <div class="servicio">
+                    <h1 class="servicio">Ficha clinica - Cosmeatría</h1>
+                </div>
+        
+        
+            </nav>
+        </div>
+
+    </header>
+    <form id="historia-clinica">
+        <div class="seccion">
+            <h2>Información General</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+
+            <label for="telefono">Tel. Casa:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="ocupacion">Ocupación:</label>
+            <input type="text" id="ocupacion" name="ocupacion">
+
+            <label for="fecha-nac">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha-nac" name="fecha-nac">
+
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso" name="peso">
+
+            <label for="talla">Talla:</label>
+            <input type="text" id="talla" name="talla">
+        </div>
+
+        <div class="seccion">
+            <h2>No Patológicos</h2>
+            <label for="fracturas">Fracturas Recientes:</label>
+            <input type="text" id="fracturas" name="fracturas">
+
+            <label for="tumores">Tumores:</label>
+            <input type="text" id="tumores" name="tumores">
+        </div>
+
+        <div class="seccion">
+            <h2>Patológicos Personales</h2>
+            <label for="alergias">Alergias:</label>
+            <input type="text" id="alergias" name="alergias">
+
+            <label for="alcoholismo">Alcoholismo:</label>
+            <input type="checkbox" id="alcoholismo" name="alcoholismo">
+
+            <label for="drogas">Drogas:</label>
+            <input type="checkbox" id="drogas" name="drogas">
+        </div>
+
+        <div class="seccion">
+            <h2>Endocrino</h2>
+            <label for="diabetes">Diabetes:</label>
+            <input type="checkbox" id="diabetes" name="diabetes">
+
+            <label for="hipertension">Hipertensión Arterial:</label>
+            <input type="checkbox" id="hipertension" name="hipertension">
+        </div>
+
+        <div class="seccion">
+            <h2>Biotipo Cutáneo</h2>
+            <label for="cutaneo-normal">Normal:</label>
+            <input type="radio" id="cutaneo-normal" name="biotipo-cutaneo" value="normal">
+
+            <label for="cutaneo-seca">Seca:</label>
+            <input type="radio" id="cutaneo-seca" name="biotipo-cutaneo" value="seca">
+
+            <label for="cutaneo-grasa">Grasa:</label>
+            <input type="radio" id="cutaneo-grasa" name="biotipo-cutaneo" value="grasa">
+
+            <label for="cutaneo-mixta">Mixta:</label>
+            <input type="radio" id="cutaneo-mixta" name="biotipo-cutaneo" value="mixta">
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
