@@ -223,16 +223,10 @@ img {
 #dinamico
 {
     top: 0;
-    position: fixed;
-    
-    z-index: 111;
     height: auto;
     padding: auto;
     width: 10000px;
-    
     background-color: rgba(255, 255, 255, 0.5);
-    
-
 }
 
 .borde-img-portada
@@ -304,6 +298,15 @@ img {
     border-radius: 10px;
     background-color: rgb(177, 175, 128); 
 }
+#form-container2 {
+    display: flex;                  /* Activa Flexbox */
+    justify-content: center;        /* Centra horizontalmente */
+    align-items:flex-start;            /* Centra verticalmente */
+    height:auto;                  /* Ocupa toda la altura de la ventana */
+    width: 50rem;
+    border-radius: 10px;
+    background-color: rgb(177, 175, 128); 
+}
 label, input {
     display: block;
     margin: 10px 0;
@@ -331,4 +334,21 @@ label, input {
     display: flex;           /* Activa Flexbox */
     justify-content: center; /* Centra horizontalmente */
     height: 100vh;          /* Ajusta la altura del contenedor (opcional) */
+}
+
+.form-horizontal label,
+.form-horizontal input,
+.form-horizontal button {
+    display: inline-block; /* Elementos en línea */
+    margin-right: 10px; /* Espacio entre elementos */
+    vertical-align: middle; /* Alinea verticalmente */
+}
+
+.form-horizontal input {
+    padding: 5px;
+    width: 150px; /* Ancho de los campos */
+}
+
+.form-horizontal button {
+    padding: 5px 15px;
 }
