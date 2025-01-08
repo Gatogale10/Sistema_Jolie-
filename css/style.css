@@ -69,6 +69,7 @@ body
     width: auto;
     max-width: 1000rem;
     padding-bottom: auto;
+    border-bottom: 0.1rem solid var(--negro);
      
 }
 
@@ -219,7 +220,7 @@ img {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     background-color: rgba(255, 255, 255, 0.5);
-    border-bottom: 0.15rem solid var(--negro);
+    
 
 }
 
