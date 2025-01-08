@@ -61,3 +61,240 @@ body
     font-size: 1.6rem;
     line-height: 2;
 }
+
+.header
+{
+    background-color:rgb(141,139,85);
+    height: 15rem;
+    width: auto;
+    max-width: 1000rem;
+    padding-bottom: auto;
+     
+}
+
+
+.Navegacion
+{
+   
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    max-width: 120rem;
+    width:auto;
+
+}
+
+.navegacion_principal
+{
+    
+    color:white;
+    
+}
+
+.logotipo_clinica
+{
+   
+    padding: 0rem 2rem;
+    
+}
+
+.box
+{
+    width: 230px;
+    height: 150px;
+    padding: 0rem 0rem 2rem 0rem;
+    background-color: transparent;
+    
+    
+}
+
+
+/**Utilidades**/
+
+.no-margin
+{
+    margin:0;
+}
+
+.no-padding 
+{
+    padding: 0;
+}
+
+.centrar-texto
+{
+    text-align: center;
+    
+}
+/*-------------Utilidades*/ 
+
+.cover {
+    object-fit: cover;
+  }
+
+.Navv
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+   
+
+    
+}
+.Navv a:hover
+{
+    background-color: #EDB1C1;
+}
+
+
+#listamenu > li { 
+    position: relative; 
+    display: inline-block; 
+    height: 60px; 
+    padding: 15px 10px 0px 10px; 
+    margin-right: 5px; 
+   } 
+
+#listamenu li > ul { 
+    display: none; 
+    position: absolute; 
+    top: 50px; 
+    left: 0px; 
+    background-color: white; 
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7); 
+    border-radius: 0px 0px 5px 5px; 
+    list-style: none; 
+    z-index: 1000; 
+   } 
+
+#listamenu li > ul > li { 
+    width: 150px; 
+    height: 60px; 
+    padding-top: 15px; 
+    padding-left: 1px; 
+    padding-right: 15px;
+   } 
+
+#listamenu li:hover ul { 
+    display: block; 
+   } 
+
+#listamenu a { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black; 
+    text-decoration: none; 
+    font-size: 2rem;
+   } 
+
+.img-responsive
+{
+    width: auto;
+    height: auto;
+    border-bottom:0.2rem solid var(--negro);
+    height: 430.37px;
+    
+    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#dinamico
+{
+    top: 0;
+    position: fixed;
+    -webkit-transform: translate3d(0, 0, 0);
+    z-index: 111;
+    height: auto;
+    padding: auto;
+    width: 10000px;
+    -webkit-animation-name: fade-in-down;
+    animation-name: fade-in-down;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 0.15rem solid var(--negro);
+
+}
+
+.borde-img-portada
+{
+    position: center;
+    height: 110px;
+    
+}
+/*----------------------------------Formulario-----------------------------*/
+
+.boton_pacientes
+{
+    margin-left: 10px;
+    padding: 2rem;
+}
+
+.img_logo {
+    height: 100%;
+    width: 100%;
+}
+
+.servicio{
+    font-family: 'Cormorant', serif;
+    font-size: 60px;
+    font-weight: 60;
+}
+
+#Boton
+{
+    padding: 2rem;
+}
+
+#add-person-btn {
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(141,139,85);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; /* Bordes redondeados para el rectángulo */
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+#add-person-btn:hover {
+    background-color: #0056b3;
+}
+/* Estilo para el icono de más */
+#add-person-btn span {
+    margin-left: 10px; /* Espacio entre el texto y el símbolo */
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Ocultar el formulario al inicio */
+#form-container {
+    display: none;
+    margin-top: 20px;
+    padding-left: 2rem;
+}
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+/* Estilo de la lista de personas */
+#person-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+#person-list li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
