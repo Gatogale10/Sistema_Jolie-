@@ -1,0 +1,63 @@
+:root
+{
+    --fuenteHeading: 'Cormorant Infant', serif;;
+    --fuenteParrafos: 'Open Sans',sans-serif;
+    --primario: #784D3C;
+    --gris:#e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --rosalinea:#C894A2;
+
+
+}
+
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before, *::after
+{
+    box-sizing: inherit;
+
+}
+
+
+/*-------------------Vamos a declarar variables globales-----------------------------*/
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    font-family: var(--fuenteHeading);
+    /*-------Interlineado---------------*/
+    line-height: 1.2;
+}
+
+h1
+{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+
+body
+{
+    /* aqui vamos a cambiar la tipografia a como nosotros queramos*/
+    
+    font-size: 1.6rem;
+    line-height: 2;
+}
