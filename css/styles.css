@@ -1,22 +1,22 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
     background-color: #f9f9f9;
 }
 
 form {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    padding: 4px;
+    border: 0px solid #ddd;
+    border-radius: 0px;
 }
 
 .seccion {
     margin-bottom: 20px;
-    padding: 10px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -25,13 +25,97 @@ form {
     color: #333;
 }
 
-label {
-    display: inline-block;
-    width: 15px;
-    font-weight: bold;
+.En_linea
+{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    
 }
 
-input[type="text"],
+.field-group {
+    
+    display: flex;
+    width: auto;
+    align-items: center; /* Alinear verticalmente label e input */
+    gap: 5px; /* Espacio entre el label y el input */
+    
+}
+
+
+.en_linea211
+{   
+    width: 800px;
+    display: grid;
+    grid-template-columns: 400px auto auto ; /* Primera columna más grande */
+    grid-auto-flow: column;
+    gap: 20px; /* Espacio entre columnas */
+    padding: 1rem;
+    align-items: center; /* Alinear contenido verticalmente */
+    
+}
+
+
+.en_linea21
+{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 400px auto; /* Primera columna más grande */
+    grid-auto-flow: column;
+    gap: 20px; /* Espacio entre columnas */
+    padding: 1rem;
+    align-items: center; /* Alinear contenido verticalmente */
+    
+}
+
+
+.en_linea12
+{
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto 500px; /* Primera columna más grande */
+    grid-auto-flow: column;
+    gap: 20px; /* Espacio entre columnas */
+    padding: 1rem;
+    align-items: center; /* Alinear contenido verticalmente */
+    
+}
+
+
+.en_linea111
+{   
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Primera columna más grande */
+    grid-auto-flow: column;
+    gap: 20px; /* Espacio entre columnas */
+    padding: 1rem;
+    align-items: center; /* Alinear contenido verticalmente */
+    
+}
+
+
+#nombre 
+{
+    width: 10px;
+}
+
+input {
+   
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* Ajusta el ancho del input dentro del contenedor */
+}
+
+
+.subseccion
+{
+    width: 800px;
+}
+
+
 input[type="tel"],
 input[type="date"],
 input[type="radio"],
@@ -39,9 +123,8 @@ input[type="checkbox"] {
     margin-bottom: 10px;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="date"] {
+
+.input-general {
     width: calc(100% - 290px);
     padding: 5px;
     border: 1px solid #ccc;
@@ -61,4 +144,35 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.subfield
+{
+    padding:1rem;
+}
+
+
+#historia-clinica
+{
+    padding-top: 4rem;
+}
+
+#peso
+{
+    width: 20px;
+}
+
+ #oficina
+{
+    width: 9rem;
+}
+
+#estadoc
+{
+    width: 8rem;
+}
+
+#correo
+{
+    width: auto;
 }

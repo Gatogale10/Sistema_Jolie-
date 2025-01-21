@@ -67,7 +67,6 @@ body
     background-color:rgb(141,139,85);
     height: 15rem;
     width: auto;
-    max-width: 1000rem;
     padding-bottom: auto;
     border-bottom: 0.1rem solid var(--negro);
      
@@ -225,7 +224,7 @@ img {
     top: 0;
     height: auto;
     padding: auto;
-    width: 10000px;
+    width: auto;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -250,7 +249,8 @@ img {
 
 .servicio{
     font-family: 'Cormorant', serif;
-    font-size: 60px;
+    font-size: 40px;
+    padding-bottom: 2rem;
     font-weight: 2;
 }
 
@@ -298,6 +298,13 @@ img {
     border-radius: 10px;
     background-color: rgb(177, 175, 128); 
 }
+
+#form {
+    
+    border-radius: 10px;
+    background-color: rgb(177, 175, 128); 
+}
+
 #form-container2 {
     display: flex;                  /* Activa Flexbox */
     justify-content: center;        /* Centra horizontalmente */
