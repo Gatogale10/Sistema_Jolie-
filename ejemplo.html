@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="servicio">
-                    <h1 class="servicio">Ficha clinica - Cosmeatría</h1>
+                    <h2 class="servicio">FICHA CLINICA - Cosmetología Cosmiátrica</h2>
                 </div>
         
         
@@ -33,77 +33,392 @@
         </div>
 
     </header>
-    <form id="historia-clinica">
-        <div class="seccion">
-            <h2>Información General</h2>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
+    
+    
 
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion">
+    <form id="historia-clinica" >
+        <div id="form">
+    
+            <div class="seccion">
+                <div class="field-group">
+                    <h2>Información General</h2>
+                </div>
+                
 
-            <label for="telefono">Tel. Casa:</label>
-            <input type="tel" id="telefono" name="telefono">
+                <div class="subseccion">
 
-            <label for="ocupacion">Ocupación:</label>
-            <input type="text" id="ocupacion" name="ocupacion">
+                
+                <div class="en_linea211">
 
-            <label for="fecha-nac">Fecha de Nacimiento:</label>
-            <input type="date" id="fecha-nac" name="fecha-nac">
+                  <div class="field-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text"  id="nombre" name="nombre">
+                  </div>
+                  
+                  
+                  <div class="field-group">
+                    <label for="peso">Peso:</label>
+                    <input type="text" id="peso" name="peso">
+                  </div>
+                  
+        
+                  <div class="field-group">
+                    <label for="talla">Talla:</label>
+                    <input type="text" id="talla" name="talla">
+                  </div>
+                </div>
 
-            <label for="peso">Peso:</label>
-            <input type="text" id="peso" name="peso">
+                </div>
 
-            <label for="talla">Talla:</label>
-            <input type="text" id="talla" name="talla">
+        
+                <div class="subseccion">
+                <div class="en_linea211">
+                    <div class="field-group">
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion">
+                    </div>
+
+                    <div class="field-group">
+                        <label for="telefono">Tel. Casa:</label>
+                        <input type="tel"  id="telefono" name="telefono">
+                    </div>
+                
+                    <div class="field-group">
+                        <label for="ocupacion">Oficina:</label>
+                        <input type="tel"  id="oficina" name="ocupacion">
+                    </div>
+
+
+                </div>
+                </div>
+
+            
+                <div class="subseccion">
+
+                
+                <div class="en_linea211">
+                    <div class="field-group">
+                        <label for="correo">E-mail:</label>
+                        <input type="email"  id="correo" name="correo">
+                    </div>
+
+                    <div class="field-group">
+                        <label for="direccion">Ocupacion:</label>
+                        <input type="text" id="ocupacion" name="ocupacion">
+                    </div>
+
+                    <div class="field-group">
+                        <label for="telefono">Estado civil:</label>
+                        <input type="text"  id="estadoc" name="estadoc">
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="subfield">
+                    <label for="fecha-nac">Fecha de Nacimiento:</label>
+                    <input type="date" class="input-general" id="fecha-nac" name="fecha-nac">
+
+                </div>
+                
+                
+            </div>
+
+            
+
+            <div class="seccion">
+                <h2>Informacion medica</h2>
+                <div class="en_linea12">
+                    <div class="field-group">
+                        <label for="fracturas">Exposicion al sol:</label>
+                        <input type="text" class="input-general" id="sol" name="sol">
+                    </div>
+                    
+                    <div class="field-group">
+                        <label for="medicamentos">Medicamentos uso:</label>
+                        <input type="text" class="input-general" id="medicamentos" name="medicamentos">
+                    </div>
+                </div>
+                
+
+                <div class="subseccion">
+
+                
+                    <div class="en_linea111">
+                        <div class="field-group">
+                            <label for="lunares">Lunares:</label>
+                            <input type="text" id="lunares" name="lunares">
+                        </div>
+        
+                        <div class="field-group">
+                            <label for="lupus">Lupus:</label>
+                            <input type="text" id="lupus" name="lupus">
+                        </div>
+        
+                        <div class="field-group">
+                            <label for="embarazo">Embarazo:</label>
+                            <input type="text" id="embarazo" name="embazaro">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="subseccion">
+                    <div class="en_linea21">
+                        <div class="field-group">
+                            <label for="tumores">Heridas abiertas:</label>
+                            <input type="text" id="embarazo" name="embazaro">
+                        </div>
+        
+                        <div class="field-group">
+                            <label for="heridas">Tratamientos recientes:</label>
+                            <input type="text" id="heridas" name="heridas">
+                        </div>
+    
+                    </div>
+                    
+    
+                    <div class="subfield">
+                        <label for="heridas">Otros:</label>
+                        <input type="text"  class="input-general"  id="heridas" name="heridas">
+                    </div>
+
+                </div>
+                
+                
+
+
+    
+             </div>
+            
+
+            
+        
+
+         <div class="seccion">
+            
+
+            <div class="subfield">
+                <h2>No Patológicos</h2>
+                <label for="fracturas">Fracturas Recientes:</label>
+                <input type="text"  id="fracturas" name="fracturas">
+            </div>
+
+            <div class="subfield">
+                <label for="marcapasos">Marcapasos:</label>
+                <input type="text"  id="marcapasos" name="marcapasos">
+            </div>
+
+            <div class="subfield">
+                <label for="cirugias">Cirugias recientes:</label>
+                <input type="text"  id="cirugias" name="cirugias">
+            </div>
+            
+            <div class="subfield">
+                <label for="tumores">Tumores:</label>
+                <input type="text"  id="tumores" name="tumores">
+            </div>
+            
+            <div class="subfield">
+                <label for="heridas">Heridas recientes:</label>
+                <input type="text" class="input-general" id="heridas" name="heridas">
+            </div>
+
+            <div class="subfield">
+                <label for="procesos">Procesos infecciosos en piel u otro:</label>
+                <input type="text" class="input-general" id="procesos" name="procesos">
+            </div>
+
+         </div>
+
+            <div class="seccion">
+            
+
+            <div class="subfield">
+                <h2>Patológicos Personales</h2>
+                <label for="alergias">Alergias:</label>
+                <input type="text" class="input-general" id="alergias" name="alergias">
+            </div>
+            
+            <div class="En_linea">
+                <label for="alcoholismo">Alcoholismo:</label>
+                <input type="checkbox"  id="alcoholismo" name="alcoholismo">
+
+                <label for="drogas">Drogas:</label>
+                <input type="checkbox"  id="drogas" name="drogas">
+
+                <label for="tabaquismo">Tabaquismo:</label>
+                <input type="checkbox"  id="tabaquismo" name="tabaquismo">
+
+                <label for="hepatitis">Hepatitis:</label>
+                <input type="checkbox"  id="hepatitis" name="hepatitis">
+
+                <label for="artritis">Artritis:</label>
+                <input type="checkbox"  id="artritis" name="artritis">
+
+                <label for="hipersensibilidad">Hipersensibilidad:</label>
+                <input type="checkbox"  id="hipersensibilidad" name="hipersensibilidad">
+            </div>
+            </div>
+
+            <div class="seccion">
+                <h2>Endocrino</h2>
+
+                <div class="En_linea">
+                    
+                    <label for="diabetes">Diabetes:</label>
+                    <input type="checkbox"  id="diabetes" name="diabetes">
+
+                    <label for="tiroides">tiroides:</label>
+                    <input type="checkbox"  id="tiroides" name="tiroides">
+
+                    <label for="hipertension">Hipertensión Arterial:</label>
+                    <input type="checkbox"  id="hipertension" name="hipertension">
+
+                    <label for="cancer">cancer:</label>
+                    <input type="checkbox"  id="cancer" name="cancer">
+
+                 </div>
+
+                <div class="subfield">
+                    <label for="Padecimientos">Padecimientos de la piel:</label>
+                    <input type="text" class="input-general"  id="padecimientos" name="padecimientos">
+
+                </div>
+                
+            
+            </div>
+
+            <div class="seccion">
+
+                    
+                    <div class="subfield">
+                    <h2>Biotipo Cutáneo</h2>
+
+                    
+                    <div class="En_linea">
+                        <label for="cutaneo-normal">Normal:</label>
+                        <input type="radio"  id="cutaneo-normal" name="biotipo-cutaneo" value="normal">
+
+                        <label for="cutaneo-seca">Seca:</label>
+                        <input type="radio"  id="cutaneo-seca" name="biotipo-cutaneo" value="seca">
+
+                        <label for="cutaneo-grasa">Grasa:</label>
+                        <input type="radio"  id="cutaneo-grasa" name="biotipo-cutaneo" value="grasa">
+
+                        <label for="cutaneo-mixta">Mixta:</label>
+                        <input type="radio"  id="cutaneo-mixta" name="biotipo-cutaneo" value="mixta">
+                    </div>
+                    </div>
+            </div>
+
+            <div class="seccion">
+
+                <div class="subfield">
+                    <h2>Alteraciones Dermicas</h2>
+                </div>
+                
+                <div class="subfield">
+                    
+                    <label for="desvitalizacion">Desvitalizacion:</label>
+                    <input type="checkbox"  id="desvitalizacion" name="desvitalizacion">
+
+
+                    <label for="deshidratacion">Deshidratacion:</label>
+                    <input type="checkbox"  id="deshidratacion" name="deshidratacion">
+
+                    <label for="hiperqueratosis">Hiperqueratosis:</label>
+                    <input type="checkbox"  id="hiperqueratosis" name="hiperqueratosis">
+
+                    <label for="seborrea">Seborrea:</label>
+                    <input type="checkbox"  id="seborrea" name="seborrea">
+
+                    <label for="acne">Acne:</label>
+                    <input type="checkbox"  id="acne" name="acne">
+
+                    <label for="hipercromas">Hipercromas:</label>
+                    <input type="checkbox" id="hipercromas" name="hipercromas">
+
+                    <label for="Flacidez">Flacidez:</label>
+                    <input type="checkbox"  id="flacidez" name="flacidez">
+
+                    <label for="menopausica">Menopausica:</label>
+                    <input type="checkbox"  id="menopausica" name="menopausica">
+
+                    <label for="envejecida">Envejecida:</label>
+                    <input type="checkbox"  id="envejecida" name="envejecida">
+
+                    <label for="fotoenvejecimiento">Fotoenvejecimiento:</label>
+                    <input type="checkbox"  id="fotoenvejecimiento" name="fotoenvejecimiento">
+
+                    <label for="pigmentacion">pigmentacion:</label>
+                    <input type="checkbox"  id="pigmentacion" name="pigmentacion">
+
+                    <label for="cicatricesqueloideas">Cicatrices queloideas:</label>
+                    <input type="checkbox"  id="cicatricesqueloideas" name="cicatricesqueloideas">
+
+                    <label for="alergias">Alergias:</label>
+                    <input type="checkbox"  id="alergias" name="alergias">
+
+                    <label for="fotoenvejecimiento">Fotoenvejecimiento:</label>
+                    <input type="checkbox"  id="fotoenvejecimiento" name="fotoenvejecimiento">
+
+                    <label for="rosacea">Rosacea:</label>
+                    <input type="checkbox"  id="rosacea" name="rosacea">
+
+                    <label for="Dmenton">D menton:</label>
+                    <input type="checkbox"  id="Dmentos" name="Dmenton">
+                </div>
+
+                <div class="subfield">
+                    <label for="otros">Otros:</label>
+                    <input type="text" class="input-general"  id="otros" name="otros">
+
+                </div>
+                    
+            </div>
+
+            <div class="seccion">
+
+                <div class="subfield">
+                    <h2>Pliegues o lineas de expresion</h2>
+                </div>
+                
+                <div class="subfield">
+                    
+                    <label for="frontal">Frontal:</label>
+                    <input type="checkbox"  id="frontal" name="frontal">
+
+
+                    <label for="piramidal">piramidal:</label>
+                    <input type="checkbox"  id="piramidal" name="piramidal">
+
+                    <label for="hiperqueratosis">Hiperqueratosis:</label>
+                    <input type="checkbox"  id="hiperqueratosis" name="hiperqueratosis">
+
+                    <label for="seborrea">Seborrea:</label>
+                    <input type="checkbox"  id="seborrea" name="seborrea">
+
+                    <label for="acne">Acne:</label>
+                    <input type="checkbox"  id="acne" name="acne">
+
+                    
+                    
+                </div>
+
+                <div class="subfield">
+                    <label for="otros">Otros:</label>
+                    <input type="text" class="input-general"  id="otros" name="otros">
+
+                </div>
+                    
+            </div>
+
+        
+
+            <button type="submit">Enviar</button>
         </div>
-
-        <div class="seccion">
-            <h2>No Patológicos</h2>
-            <label for="fracturas">Fracturas Recientes:</label>
-            <input type="text" id="fracturas" name="fracturas">
-
-            <label for="tumores">Tumores:</label>
-            <input type="text" id="tumores" name="tumores">
-        </div>
-
-        <div class="seccion">
-            <h2>Patológicos Personales</h2>
-            <label for="alergias">Alergias:</label>
-            <input type="text" id="alergias" name="alergias">
-
-            <label for="alcoholismo">Alcoholismo:</label>
-            <input type="checkbox" id="alcoholismo" name="alcoholismo">
-
-            <label for="drogas">Drogas:</label>
-            <input type="checkbox" id="drogas" name="drogas">
-        </div>
-
-        <div class="seccion">
-            <h2>Endocrino</h2>
-            <label for="diabetes">Diabetes:</label>
-            <input type="checkbox" id="diabetes" name="diabetes">
-
-            <label for="hipertension">Hipertensión Arterial:</label>
-            <input type="checkbox" id="hipertension" name="hipertension">
-        </div>
-
-        <div class="seccion">
-            <h2>Biotipo Cutáneo</h2>
-            <label for="cutaneo-normal">Normal:</label>
-            <input type="radio" id="cutaneo-normal" name="biotipo-cutaneo" value="normal">
-
-            <label for="cutaneo-seca">Seca:</label>
-            <input type="radio" id="cutaneo-seca" name="biotipo-cutaneo" value="seca">
-
-            <label for="cutaneo-grasa">Grasa:</label>
-            <input type="radio" id="cutaneo-grasa" name="biotipo-cutaneo" value="grasa">
-
-            <label for="cutaneo-mixta">Mixta:</label>
-            <input type="radio" id="cutaneo-mixta" name="biotipo-cutaneo" value="mixta">
-        </div>
-
-        <button type="submit">Enviar</button>
     </form>
 
     <script src="script.js"></script>
